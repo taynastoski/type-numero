@@ -2,7 +2,7 @@
 const meuNumero = 3;
 const primeiroNumero = 1;
 const segundoNumero = 2;
-const operacaoMatematica = primeiroNumero - segundoNumero;
+const operacaoMatematica = primeiroNumero + segundoNumero;
 
 console.log (operacaoMatematica);
 
@@ -15,3 +15,7 @@ const novaOperacao = primeiroNumero / numeroPontoFlutuante;
 
 console.log (novaOperacao);
 
+//NaN -> Not a Number (não é um número) 
+
+const alura = "Alura";
+console.log (alura * primeiroNumero);
